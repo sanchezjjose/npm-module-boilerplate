@@ -1,0 +1,31 @@
+{
+  "name": "@sanchezjjose/npm-module-boilerplate",
+  "version": "0.0.1",
+  "description": "Boilerplate for creating an npm module.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanchezjjose/npm-module-boilerplate.git"
+  },
+  "keywords": [
+    "npm",
+    "module",
+    "tutorial"
+  ],
+  "author": "Jose Sanchez <sanchezjjose@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanchezjjose/npm-module-boilerplate/issues"
+  },
+  "homepage": "https://github.com/sanchezjjose/npm-module-boilerplate#readme",
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "coveralls": "^2.11.4",
+    "istanbul": "^0.4.0",
+    "mocha": "^2.3.3"
+  }
+}
