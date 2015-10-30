@@ -1,6 +1,6 @@
 {
   "name": "@sanchezjjose/npm-module-boilerplate",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "Boilerplate for creating an npm module.",
   "main": "index.js",
   "scripts": {
