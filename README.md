@@ -1,17 +1,17 @@
-[![Build Status](https://travis-ci.org/sanchezjjose/npm-module-boilerplate.svg)](https://travis-ci.org/sanchezjjose/npm-module-boilerplate)
+[![Build Status](https://travis-ci.org/sanchezjjose/npm-module-boilerplate.svg)](https://travis-ci.org/sanchezjjose/npm-module-boilerplate) [![Coverage Status](https://coveralls.io/repos/sanchezjjose/npm-module-boilerplate/badge.svg?branch=master&service=github)](https://coveralls.io/github/sanchezjjose/npm-module-boilerplate?branch=master)
 
-[![Coverage Status](https://coveralls.io/repos/sanchezjjose/npm-module-boilerplate/badge.svg?branch=master&service=github)](https://coveralls.io/github/sanchezjjose/npm-module-boilerplate?branch=master)
-
-Number Formatter
+npm-module-boilerplate
 =========
 
-A small library that adds commas to numbers
+A boilerplate repository for creating npm modules. It supports Travis CI, Istanbul and Coveralls for code coverage, a simple test, and a configured package.json with npm scripts, dependencies, keywords, and more.
 
 ## Installation
 
   `npm install @sanchezjjose/npm-module-boilerplate`
 
 ## Usage
+
+At the moment the test code is a number formatter.
 
     var numFormatter = require('@sanchezjjose/npm-module-boilerplate');
 
